@@ -37,6 +37,7 @@ body {
     justify-content: space-between;
     padding: 0 30px;
     z-index: 1000;
+    
 }
 
 /* Logo e link */
@@ -84,6 +85,8 @@ body {
     transition: all 0.3s ease;
     cursor: pointer;
     display: inline-block;
+    font-family: "Fjalla One", serif;
+    font-size: 15px;
 }
 
 .botao-sair a:hover {

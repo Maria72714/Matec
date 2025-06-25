@@ -102,11 +102,13 @@
 .green {
     background-color: #008f5e; 
     color: white;
+
 }
 
 .white {
     background-color: white;
     color: #008f5e;
+   
     
 }
 
@@ -227,10 +229,16 @@
 
 .create h3{
     font-size: 22px;
-    padding-bottom: 10px;
+    font-family: "Fjalla One", serif;
+    padding-bottom: 10px; 
+    letter-spacing: 0.5px;
+
 }
 .create h5{
     font-size: 18px;
+    font-family: "Fjalla One", serif;
+    letter-spacing: 0.5px;
+
     padding-bottom:12px ;
 }
 .create .button-criar-conta-gratuita {
@@ -242,12 +250,13 @@
     width: 240px;
     color: #13803e;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     transition: transform 0.1s ease;
 }
 .create a.button-criar-conta-gratuita{
     text-decoration: none;
     font-family: "Fjalla One", serif;
+     letter-spacing: 0.5px;
    
 }
 .create .button-criar-conta-gratuita:hover{
