@@ -1,0 +1,21 @@
+{% extends "bases/base_conteudos.html" %}
+
+{% block title %}Frações - Matec{% endblock %}
+
+{% block main_content %}
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/fracao.css') }}" />
+    <div class="video">
+        <iframe src="https://youtu.be/jSylkLPu5Tg?si=oSuAQm6h_2yYyGlm" allowfullscreen></iframe>
+    </div>
+    <div class="descricao">
+        <p>Descrição do vídeo sobre frações. Aqui você pode aprender sobre conceitos básicos e avançados de frações.</p>
+    </div>
+    <div class="comentarios">
+        <h3>Comentários</h3>
+        <p>Comentários dos usuários sobre o vídeo.</p>
+    </div>
+    <div class="comentario-form">
+        <h3>Deixe seu comentário</h3>
+       
+    </div>
+{% endblock %}

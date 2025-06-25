@@ -14,3 +14,7 @@ def painel():
 @app.route('/conteudos')
 def conteudos():
     return render_template('conteudos.html')
+
+@app.route('/fracao')
+def fracao():
+    return render_template('fracao.html')

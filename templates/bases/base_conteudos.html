@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}Matec{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bases/bases_conteudos.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="{{ url_for('index') }}" target="_self">Matec <img src="{{ url_for('static', filename='images/logo_matec.png') }}" alt="Logo" /></a>
+            </div>
+            <div class="botao-sair">
+                <a href="{{ url_for('conteudos') }}">Voltar</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="main">
+                {% block main_content %}
+                <!-- Conteúdo principal da página -->
+                {% endblock %}
+            </div>
+
+            <div class="sidebar">
+                <div class="exercicios">
+                    <h3>Exercícios</h3>
+                    <p>Exercícios relacionados ao vídeo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

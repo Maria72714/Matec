@@ -1,4 +1,4 @@
-{% extends 'base2.html' %}
+{% extends 'bases/base2.html' %}
 {% block title %}Conteúdos{% endblock %}
 {% block conteudo%}
 
@@ -15,7 +15,8 @@
                     <div class="img"><img src="{{ url_for('static', filename='images/abra-o-livro.png') }}" alt="Frações"></div>
                     <h2>Frações</h2>
                     <h3>Entenda as partes de um todo</h3>
-                    <h4 class="btn green"><a href="/fracao.html">Estudar Frações</a></h4>
+                   <h4 class="btn green"><a href="{{ url_for('fracao') }}">Estudar Frações</a></h4>
+
                     
                 </div>
                 <div class="box-2">
